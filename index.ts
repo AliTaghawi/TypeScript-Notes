@@ -5,4 +5,7 @@ console.log("hello typeScript")
 // :boolean,
 // :any,
 // :Function,
-
+// :Date,
+// :void, => پوچ
+// :object,
+// :type[], => array or same as object
