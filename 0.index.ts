@@ -3,10 +3,16 @@ console.log("hello typeScript")
 // :string,
 // :number,
 // :boolean,
-// :any,
 // :Function,
 // :Date,
-// :void, => پوچ
 // :object,
 // :type[], => array or same as object
 // :Array<type>, 
+
+// :null,
+// :undefined,
+// :void, => پوچ
+
+// :any,
+// :unknown,
+// :never,
