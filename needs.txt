@@ -1,11 +1,11 @@
 npm install -g typescript => "Globally Installing TypeScript"
 
-node <fileName.ts> => run .ts files
+node fileName.ts => run .ts files
 
-old .ts run {
+old way .ts run { // more strick
   // npm install -g ts-node  // global package
   // npm install @types/node // package
-  // npx ts-node <fileName> // runs .ts files 
+  // npx ts-node fileName.ts // runs .ts files 
 }
 
 tsc <fileName> => will build ts file and return js file 
