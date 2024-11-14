@@ -9,3 +9,4 @@ console.log("hello typeScript")
 // :void, => پوچ
 // :object,
 // :type[], => array or same as object
+// :Array<type>, 
