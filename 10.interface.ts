@@ -4,7 +4,10 @@ interface InterfaceUser { // declaring custom type
   age: number
   username: string
   email: string;
-  optional?: string
+  optional?: {
+    id?: number,
+    key: string
+  }
 }
 
 const user1: InterfaceUser = {
@@ -18,7 +21,7 @@ const user1: InterfaceUser = {
 let users: Array<InterfaceUser>;
 
 function createUser(user: InterfaceUser) {
-  user.optional = user.optional ?? 'optional'
+  user.optional = user.optional ?? { key: 'optional'}
   return user
 }
 
