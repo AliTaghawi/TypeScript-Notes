@@ -24,11 +24,15 @@ type Events = {
   type: EventType,
 }
 
-type userEvents = Events & { // extend - inherit
+type userEvents_1 = Events & { // extend - inherit => can extend from both interface and types
   userId: ID
 }
 
-const userEvent1: userEvents = {
+interface userEvents_2 extends Events {// extend - inherit => can extend from both interface and types
+  userId: ID
+}
+
+const userEvent: userEvents_2 = {
   name: "name",
   dateCreated: new Date,
   type: EventType.FRIENDLY,
